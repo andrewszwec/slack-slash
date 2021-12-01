@@ -65,5 +65,5 @@ const generateBody = (url, userID) => {
     return `<${url}| good job> by <@${userID}>`
 }
 
-//app.listen(port, () => console.log(`App listening at ${process.env.HOST}:${port}`));
-app.listen(port, () => console.log(`App listening at http://localhost:${port}`));
+app.listen(port, () => console.log(`App listening at ${process.env.HOST}:${port}`));
+// app.listen(port, () => console.log(`App listening at http://localhost:${port}`));
